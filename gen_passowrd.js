@@ -50,10 +50,17 @@ const options = {
 
 // Функция отображения описани
 function ViewDescription() {
-    return "Use the GenPassword function call to generate a password. You can set the generation conditions. `length` - the password length, `useLowerCase` (true / false) - use lowercase letters, `useUpperCase` (true / false) - use uppercase letters, `useDigits` (true / false) - use digits, `useSpecialCharacters` (true / false) - use special characters."
+    let str = "Use the GenPassword function call to generate a password."
+    str = str + "You can set the generation conditions. length - the password length,"
+    str = str + "useLowerCase (true / false) - use lowercase letters, useUpperCase (true / false)";
+    str = str + "- use uppercase letters, useDigits (true / false) - use digits, useSpecialCharacters";
+    str = str + "(true / false) - use special characters. Here is the translation: Use the options";
+    str = str + "structure to set the generation parameters. Use the ViewDescription function to";
+    str = str + "display the description.";
+    return str;
 };
 
-    GenPassword(options);
+GenPassword(options);
 
 
 module.exports = { GenPassword, ViewDescription, options };
