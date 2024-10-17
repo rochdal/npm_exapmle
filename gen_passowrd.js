@@ -57,6 +57,7 @@ function ViewDescription() {
     str = str + "(true / false) - use special characters. Here is the translation: Use the options";
     str = str + "structure to set the generation parameters. Use the ViewDescription function to";
     str = str + "display the description.";
+    str = str + "GitHub : https://github.com/rochdal/npm_exapmle.git";
     return str;
 };
 
