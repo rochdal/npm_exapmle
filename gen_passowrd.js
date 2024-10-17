@@ -33,7 +33,6 @@ function GenPassword(options) {
         password += availableChars[randomIndex];
     }
 
-    console.log(password);
     return password;
 };
 
@@ -60,8 +59,5 @@ function ViewDescription() {
     str = str + "GitHub : https://github.com/rochdal/npm_exapmle.git";
     return str;
 };
-
-GenPassword(options);
-
 
 module.exports = { GenPassword, ViewDescription, options };
