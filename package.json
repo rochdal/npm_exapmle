@@ -1,6 +1,6 @@
 {
-  "name": "get_pass",
-  "version": "1.0.0",
+  "name": "rndpass",
+  "version": "2.1.0",
   "description": "Use the GenPassword function call to generate a password",
   "main": "gen_passowrd.js",
   "scripts": {
