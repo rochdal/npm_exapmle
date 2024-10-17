@@ -1,0 +1,12 @@
+{
+  "name": "npm_exapmle",
+  "version": "1.0.0",
+  "description": "```\r  = Use the GenPassword function call to generate a password. =",
+  "main": "gen_passowrd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
